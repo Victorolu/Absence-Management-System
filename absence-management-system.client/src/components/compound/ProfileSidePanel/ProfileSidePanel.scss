@@ -1,0 +1,45 @@
+.profile-side-panel-container {
+    background-color: #fff;
+    box-sizing: border-box;
+    filter: drop-shadow(5px 0 4px #05BACA80);
+    height: 100vh;
+    padding: 20px 10px;
+    width: 260px;
+
+    .manage-requests {
+        margin-top: 50px;
+        font-size: 14px;
+
+        p {
+            color: #05BACA;
+            cursor: pointer;
+            margin: 0;
+
+            &:hover {
+                color: #094E67;
+            }
+        }
+    }
+}
+
+.department-details {
+    margin-top: 40px;
+
+    .department-name {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .team-members {
+
+        .team-member {
+            align-items: center;
+            display: flex;
+
+            .team-member-name {
+                font-size: 14px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

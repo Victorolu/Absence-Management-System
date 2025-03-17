@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Absence-Management-System.Server", "Absence-Management-System.Server\Absence-Management-System.Server.csproj", "{AC8C1296-D981-423F-9229-38A6286B63F2}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "absence-management-system.client", "absence-management-system.client\absence-management-system.client.esproj", "{82BA29F4-4D56-411C-B927-E863F3AEEA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Absence-Management-System.AuthenticationAuthorization", "Absence-Management-System.AuthenticationAuthorization\Absence-Management-System.AuthenticationAuthorization.csproj", "{083DA6E6-7818-4346-B0A2-DC301BD6E75A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC8C1296-D981-423F-9229-38A6286B63F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8C1296-D981-423F-9229-38A6286B63F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8C1296-D981-423F-9229-38A6286B63F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8C1296-D981-423F-9229-38A6286B63F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BA29F4-4D56-411C-B927-E863F3AEEA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BA29F4-4D56-411C-B927-E863F3AEEA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BA29F4-4D56-411C-B927-E863F3AEEA86}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{82BA29F4-4D56-411C-B927-E863F3AEEA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BA29F4-4D56-411C-B927-E863F3AEEA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BA29F4-4D56-411C-B927-E863F3AEEA86}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{083DA6E6-7818-4346-B0A2-DC301BD6E75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083DA6E6-7818-4346-B0A2-DC301BD6E75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083DA6E6-7818-4346-B0A2-DC301BD6E75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083DA6E6-7818-4346-B0A2-DC301BD6E75A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07828B4F-7619-4BB8-A3DA-DA516CC8382B}
+	EndGlobalSection
+EndGlobal

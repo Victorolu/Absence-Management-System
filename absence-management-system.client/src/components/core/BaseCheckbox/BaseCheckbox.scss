@@ -1,0 +1,30 @@
+.checkbox {
+    border: 1px solid #05BACA;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    width: 15px;
+
+    svg {
+        display: none;
+        height: 90%;
+        width: 70%;
+
+        * {
+            fill: #FFF;
+        }
+    }
+
+    &.ticked {
+        align-items: center;
+        background-color: #05BACA;
+        display: flex;
+        justify-content: center;
+
+
+        svg {
+            display: block;
+        }
+    }
+}

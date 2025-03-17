@@ -1,0 +1,6 @@
+@Absence_Management_System.Server_HostAddress = http://localhost:5182
+
+GET {{Absence_Management_System.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

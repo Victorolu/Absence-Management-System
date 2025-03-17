@@ -1,0 +1,50 @@
+.base-button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 120px;
+    padding: 12px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border 0.5s ease-in-out;
+    width: fit-content;
+
+    &.default {
+        background-color: #05BACA;
+        color: #fff;
+
+        &:hover{
+            background-color: #094E67;
+        }
+    }
+    
+    &.default-outline {
+        background-color: #fff;
+        border: 1px solid #05BACA;
+        color: #05BACA;
+
+        &:hover {
+            background-color: #05BACA;
+            color: #fff;
+        }
+    }
+
+    &.red {
+        background-color: #FC0000;
+        color: #fff;
+
+        &:hover{
+            background-color: #B00000;
+        }
+    }
+    
+    &.red-outline {
+        background-color: #fff;
+        border: 1px #FC0000;
+        color: #FC0000;
+
+        &:hover {
+            background-color: #FC0000;
+            color: #fff;
+        }
+    }
+}

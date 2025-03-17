@@ -1,0 +1,14 @@
+.base-text-box{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #094E67;
+
+    &::placeholder {
+        color: lightgrey;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
